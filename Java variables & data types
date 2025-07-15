@@ -1,0 +1,16 @@
+class Main {
+    public static void main(String[] args) {
+        int id =101;
+        String title,price,description,category;
+        title = "iPhone 16";
+        price="1900 EUR";
+        description ="Perfect product with best image quality";
+        category ="Phone";
+        System.out.println("Product ID:"+id);
+         System.out.println("Title :"+ title);
+         System.out.println("Price:"+  price);
+          System.out.println("Description:"+description );
+           System.out.println("Category :"+category );
+        
+    }
+}
