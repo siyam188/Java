@@ -1,0 +1,13 @@
+class Main {
+    public static void main(String[] args) {
+        int items=50;
+        float perCost =5.50f;
+        float totalCost=items * perCost;
+        char currency ='$';
+        System.out.println("Number of items:"+items);
+         System.out.println("Cost per item:"+perCost+currency);
+         System.out.println("Total Cost:"+totalCost+currency);
+
+         
+    }
+}
