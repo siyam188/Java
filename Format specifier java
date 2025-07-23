@@ -1,0 +1,16 @@
+class Main {
+    public static void main(String[] args) {
+        boolean b = true;
+        char c = 'a';
+        short s = 3425;
+        int i = 12345;
+        float f =10.2f;
+        double d = 20.3;
+        System .out.printf("boolean b = %b\n",b);
+        System .out.printf("characetr c = %c\n",c);
+        System .out.printf("Short s = %d\n",s);
+        System .out.printf("intrger i = %d\n",i);
+         System .out.printf("Floating f = %.2f\n",f);
+         System .out.printf("double d = %.2f\n",d);
+    }
+}
