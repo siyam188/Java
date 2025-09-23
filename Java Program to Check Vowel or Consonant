@@ -1,0 +1,42 @@
+package the.simple.input.converter;
+import java.util.Scanner;
+public class TheSimpleInputConverter {
+public static void main(String[] args) {
+  Scanner input = new Scanner (System.in);
+ 
+     char ch;
+     System.out.print("Enter any letter:");
+     ch=input.next().charAt(0);
+     if(ch=='a')
+     {
+         System.out.println(ch+" is a Vowle");
+     }
+     else if(ch=='e')
+     {
+         System.out.println(ch+" is a Vowle");
+     }
+     else if(ch=='i')
+     {
+         System.out.println(ch+" is a Vowle");
+     }
+     else if(ch=='o')
+     {
+         System.out.println(ch+" is a Vowle");
+     }
+     else if(ch=='u')
+     {
+         System.out.println(ch+" is a Vowle");
+     }
+     else
+     {
+           System.out.println(ch+" is a Consolant");
+     }
+     
+      
+
+    }
+}
+
+    
+    
+
