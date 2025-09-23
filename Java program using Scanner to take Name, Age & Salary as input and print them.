@@ -1,0 +1,24 @@
+package the.simple.input.converter;
+import java.util.Scanner;
+public class TheSimpleInputConverter {
+public static void main(String[] args) {
+  Scanner myObj = new Scanner (System.in);
+  System.out.print("Enter a Name:");
+  String name = myObj.nextLine();
+  System.out.print("Enter a Age:");
+  int age = myObj.nextInt();
+  System.out.print("Enter a Salary:");
+  double salary = myObj.nextDouble();
+  System.out.println("Name:"+name);
+  System.out.println("Age:"+age);
+  System.out.println("Salary:"+salary);
+  
+  
+      
+
+    }
+}
+
+    
+    
+
