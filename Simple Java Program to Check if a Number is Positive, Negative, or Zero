@@ -1,0 +1,29 @@
+package simple code;
+import java.util.Scanner;
+public class TheSimplecode {
+public static void main(String[] args) {
+  Scanner input = new Scanner (System.in);
+  int num;
+  System.out.print("Enter any number:");
+  num=input.nextInt();
+  if(num>0)
+  {
+      System.out.print(num+" is Possitive");
+  }
+  else if(num<0)
+  {
+       System.out.print(num+ "is Negative");
+  }
+  
+  else
+  {
+       System.out.print(num+" is Zero");
+  }
+      
+
+    }
+}
+
+    
+    
+
