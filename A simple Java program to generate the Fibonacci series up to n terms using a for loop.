@@ -1,0 +1,21 @@
+package fibo;
+import java.util.Scanner;
+public class Fibo { 
+    public static void main(String[] args) {
+        Scanner input=new Scanner (System.in);
+        System.out.print("Enter a number:");
+        int num=input.nextInt();
+        int a=0;
+        int b=1;
+        int fibo;
+         System.out.print("Fibonacci Series: " + a + " " + b + " ");
+        for(int i=2;i<num;i++)
+        {
+           fibo=a+b;
+            System.out.print(fibo+ " ");
+           a=b;
+           b=fibo;
+        }
+           }
+    
+}
